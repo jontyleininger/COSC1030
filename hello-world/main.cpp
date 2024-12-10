@@ -1,8 +1,8 @@
-#
-# Name
-# Date
-# Your First C++ Program
-# COSC 1030 
-#
+//
+// Name
+// Date
+// Your First C++ Program
+// COSC 1030
+//
 
-# This is my first C++ program.
+// This is my first C++ program.
