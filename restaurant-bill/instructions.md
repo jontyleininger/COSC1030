@@ -4,4 +4,4 @@ Write a program that computes the tax and tip on a restaurant bill for a patron 
 
 __Hint: Use the value 0.0675 to represent 6.75 percent, and 0.20 to represent 20 percent.__
 
-Review [The Bug Collector Problem](https://mediaplayer.pearsoncmg.com/assets/_video.true/Bug_Collector_Problem) VideoNotes. You will see the output you should have for this programming challenge as well as the code.](https://mediaplayer.pearsoncmg.com/assets/_video.true/Bug_Collector_Problem) VideoNotes. You will see the output you should have for this programming challenge as well as the code.
+Review [Solving the Restaurant Bill Problem](https://mediaplayer.pearsoncmg.com/assets/gaddis_cpp10e_0204_Solving_Restaurant_Bill_Problem) VideoNote. You will see the output you should have for this programming challenge as well as the code.

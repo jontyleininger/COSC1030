@@ -1,8 +1,7 @@
 //
 // Name
 // Date
-// Your First C++ Program
+// Hello World Programming Project
 // COSC 1030
 //
 
-// This is my first C++ program.

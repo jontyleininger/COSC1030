@@ -2,8 +2,18 @@
 
 Ready for your first C++ program?! Let's use the the tried and true Hello Wold program as our first program. All you need to do is enter the following (after filling in your name and date in the comments):
 ```C
-# This is my first C++ program.
+//
+// Name
+// Date
+// Your First C++ Program
+// COSC 1030
+//
 
-cout("Hello World!")
+#include <iostream>
+
+int main() {
+    cout << "Hello, World!";
+    return 0;
+}
 ```
 Ready! Set! Go!!
