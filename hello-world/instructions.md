@@ -10,6 +10,7 @@ Ready for your first C++ program?! Let's use the the tried and true Hello Wold p
 //
 
 #include <iostream>
+using namespace std;
 
 int main() {
     cout << "Hello, World!";

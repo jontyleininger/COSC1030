@@ -7,7 +7,8 @@
 
 // This program demonstrates a compile error.
 
-#include <iostream> using namespace std;
+#include <iostream>
+using namespace std;
 
 int main()
 {
