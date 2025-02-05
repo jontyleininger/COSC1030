@@ -1,6 +1,6 @@
 //
-// Name
-// Date
+// Name Jon Leininger
+// Date 2-4-25
 // Your First C++ Program
 // COSC 1030
 //
