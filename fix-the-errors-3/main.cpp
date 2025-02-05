@@ -17,6 +17,8 @@ int main()
 
 	float firstNumber;
 	float secondNumber;
+	float display1;
+	float display2;
 
 	// Prompt user to enter the first number.
 	cout << "Enter the first number" << endl;
@@ -33,7 +35,7 @@ int main()
 		<< " and " << secondNumber << endl;
 
 	// Now we will swap the values.
-	firstNumber = secondNumber; secondNumber = firstNumber;
+	std::swap(firstNumber,secondNumber);
 
 	// Output the values.
 	cout << "After swapping, the values of the two numbers are "
