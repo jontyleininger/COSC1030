@@ -5,22 +5,21 @@
 // COSC 1030
 //
 
-#inlcude <iostream>
+#include <iostream>
 using namespace std;
-
 
 int main ()
 {
 // Variable declarations
 	double meal = 88.67;
-	double tax = meal * 0.0675:
-	double subtotal = meal + tax:
+	double tax = meal * 0.0675;
+	double subtotal = meal + tax;
 	double tip = subtotal * 0.20;
-	double total = subtotal + tip:
+	double total = subtotal + tip;
 	
-	cout << "Meal cost: " << meal << endl:
+	cout << "Meal cost: " << meal << endl;
 	cout << "Tax: " << tax << endl;
-	cout << "Tip: " " << tip << endl:
+	cout << "Tip: " << tip << endl;
 	cout << "Total: " << total << endl;
 
 	return 0;
