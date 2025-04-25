@@ -53,6 +53,7 @@ int main()
 
 void getSales( string names[], int sales[], int size)
 {
+
 	for (int type = 0; type < size; type++)
 	{
 	cout << "How many jars of " << names[type]
@@ -66,6 +67,7 @@ void getSales( string names[], int sales[], int size)
 		cin >> sales[type];
 		}
 	}
+	
 } 
 
 
