@@ -12,9 +12,8 @@ using namespace std;
 
 void getTemps(int[], float[], int);
 float getAvg(float[], int);
-
-//int largestElement(int[],int);
-int smallestElement(int[], int);//
+int largestElement(float[],int);
+int smallestElement(float[], int);
 
 int main()
 {
@@ -37,7 +36,20 @@ int main()
 	
 	getTemps(days, temps, numOftemps);
 	avgTemps = getAvg(temps, numOftemps);
-	cout << avgTemps << endl;
+	highTemp = smallestElement(temps, numOftemps);
+	lowTemp = largestElement(temps, numOftemps);
+	
+	cout << "The average temperature of your inputs are: "
+	     << fixed << setprecision(2)
+	     << avgTemps
+	     << endl;
+	cout << "The highest temperature is: "
+           << temps[highTemp]
+	     << endl;
+	cout << "The highest temperature is: "
+	     << temps[lowTemp]	
+	     << endl;
+	
 	
 }
 
@@ -70,11 +82,38 @@ void getTemps (int days [], float temps [], int numOftemps)
 float getAvg(float temps[], int numOftemps)
 {
 	float total = 0;
-	
 	for (int pos = 0; pos < numOftemps; pos++)
 		total += temps[pos];
-		total = total / numOftemps;
+	total = total / numOftemps;
 	return total; 
 
 }
+
+
+int smallestElement (float temps[], int numOftemps)
+{
+	int indexOfSmallest = 0;
+	
+	for (int pos = 1; pos < numOftemps; pos++)
+	{
+		if (temps[pos] < temps[indexOfSmallest])
+			indexOfSmallest = pos;
+	}
+	return indexOfSmallest;
+}
+
+
+
+int largestElement (float temps[], int numOftemps)
+{
+	int indexOfLargest = 0;
+	
+	for (int pos = 1; pos < numOftemps; pos++)
+	{
+		if (temps[pos] > temps[indexOfLargest])
+			indexOfLargest = pos;
+	}
+	return indexOfLargest;
+}
+
 
