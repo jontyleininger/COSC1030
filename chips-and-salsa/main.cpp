@@ -109,3 +109,5 @@ int smallestElement (int array[], int size)
 	}
 	return indexOfSmallest;
 }
+
+
